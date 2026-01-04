@@ -1,0 +1,38 @@
+body {
+  background: url('images/radio-background.jpg');
+  background-color: #c1c1c1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#fff;  
+  font-size: 14px;
+  font-family: sans-serif;
+  margin-bottom: 100px;
+  }
+a {
+  color: gold;
+  text-decoration: underline;
+  }
+a:hover {
+  text-decoration: none;
+  }
+.logo {
+   width: 380px;
+   height: auto;
+   margin: 100px 0 10px 0;
+   border:0;
+  }
+
+
+@media only screen and (max-width: 600px) {
+   
+body {
+  font-size: 15px
+   margin-bottom: 35px;
+   background-size: cover;
+  }
+.logo {
+   margin: 10px 0;
+   max-width: 85%;
+   }
+  
+}
